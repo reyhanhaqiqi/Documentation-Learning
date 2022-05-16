@@ -1,0 +1,145 @@
+/* ! Font & text Styling */
+h2 {
+    color: lightcoral;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-variant: small-caps;
+}
+
+p {
+    font-family: arial, verdana, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    /* small-caps untuk meruah huruf menjadi kapital tetapi lebih kecil dari huruf awal */
+    font-style: italic;
+    /*  italic untuk membuat font bercetak miring */
+    line-height: 20px;
+}
+
+p.text {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: rgb(11, 225, 101);
+    /* pemilihan warna pada css bisa menggunakan kata, hexadecimal dan rgb */
+    text-align: center;
+    /* text align bisa mengatur text right, left, center dan justify */
+    text-decoration: underline;
+    /* text decoration bisa memberi text dengan garis atas (overline), garis bawah (underline), garis tengah atau dicoret (line-throught), dan none untuk menghapus garis yang telah ada */
+    text-transform: capitalize;
+    /* text transform untuk mengatur text menjadi besar semua (uppercase), kecil semua (lowercase), besar pada huruf depan (capitalize, dan none untuk mengubah text menjadi normal */
+    letter-spacing: 2px;
+    word-spacing: 10px;
+}
+
+
+/* ! Background */
+body {
+    background-color: grey;
+    background-image: url(../HTML/image/anime.jpg);
+    /* Background-image harus selalu menggunakan url untuk memanggil file */
+    background-repeat: repeat-x;
+    /* background-repeat digunakan untuk mengulangi gambar agar memenuhi halaman, bisa kekanan sumbu x dan kebawah sumbu y */
+    background-position: top right;
+    /* background-position bisa digunakan dengan value top left, top center, top right, bottom right, bottom left, bottom center, center left, center center, center right, x%, y%, x-pos, y-pos */
+}
+
+
+/* ! CSS Selector */
+ul li a {
+    font-size: 15px;
+    color: white;
+}
+
+ol li a {
+    color: red;
+}
+
+
+/* id dengan menggunakan tanda # */
+#p1 {
+    color: orange;
+}
+
+
+/* class dengan menggunakan tanda . */
+.p2 {
+    color: green;
+}
+
+.cetak-miring {
+    color: white;
+}
+
+p.cetak-miring {
+    color: blue;
+    font-style: italic;
+}
+
+/* ! Pseudo-Class Link*/
+.hello:link {
+    color: green;
+}
+
+.hello:hover {
+    font-size: 20px;
+    color: red;
+    text-decoration: none;
+}
+
+.hello:active {
+    font-style: italic;
+}
+
+/* ! Pseudo-Class Posisi Elemen */
+li:first-child a {
+    color: green;
+}
+
+li:last-child a {
+    color: red;
+}
+
+li:nth-child(4n) a:hover {
+    /* pseudoclass ini bisa menggunakan spesifik angka, atau kelipatan contoh 4n, atau 4n-2 */
+    /* Selain itu bisa menggunakan even uuntuk angka genap dan odd untuk angka ganjil */
+    /* pseudoclass ini juga bisa digaungkan dengan pseudo yang lain seperti :hover */
+    color: red;
+}
+
+p:first-of-type {
+    color: red;
+}
+
+
+/* ! Inheritance */
+.inherit {
+    color: green;
+}
+
+.inherit h1,
+a,
+p {
+    color: inherit;
+}
+
+
+/* ! Specificity */
+ul#hobi li {
+    color: white;
+}
+
+/* nilai selector 1 adalah 102, element ada 2, class tidak ada, dan id ada 1 */
+
+.favourite {
+    color: red;
+}
+
+/* nilai selector 2 adalah 010, element tidak ada, class ada 1, dan id tidak ada */
+/* maka selector 1 akan mendominasi dibanding selector 2 */
+
+ul#hobi li.favourite {
+    color: red;
+}
+
+/* nilai selector 3 adalah 112, element ada 2, class ada 1, dan id ada 1*/
+/* maka selector 3 akan lebih berat dan mendominasi dibanding selector 1 */
