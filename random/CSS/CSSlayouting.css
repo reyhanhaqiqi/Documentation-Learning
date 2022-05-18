@@ -1,0 +1,13 @@
+.container {
+    width: 600px;
+    height: 150px;
+    margin: 100px auto;
+    border: 5px solid black;
+
+}
+
+.container div {
+    margin: 5px;
+    background-color: red;
+    flex: 1;
+}

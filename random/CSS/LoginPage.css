@@ -1,0 +1,76 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#utama {
+    background-image: url("https://wallpaperaccess.com/full/21592.jpg");
+    background-size: cover;
+    height: 979px;
+}
+
+.header_isi {
+    width: 500px;
+    padding: 300px 0px 90px 730px;
+}
+
+.gambar {
+    background-color: rgba(170, 114, 123, 0.6);
+    height: 350px;
+    border: 2px solid rgba(170,114,123, 1);
+}
+
+img {
+    width: 250px;
+    height: 100px;
+    margin-left: 120px;
+    margin-top: 15px;
+}
+
+.login_regis {
+    height: 40px;
+    width: 260px;
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    background-color: rgba(255, 255, 255, 0.4);
+    margin-left: 110px;
+    margin-top: 8px; 
+}
+
+.checkbox {
+    color: black;
+    font-size: 15px;
+    margin-left: 110px;
+    margin-top: 10px;
+}
+
+.tombol_login {
+    margin-left: 195px;
+    margin-top: 10px;
+    background-color: white;
+    text-align: center;
+    border: 2px solid white;
+    width: 100px;
+    height: 30px;
+}
+
+.login_regis:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+}
+
+.contact {
+    size: 2px;
+    text-align: center;
+    width: 10px;
+}
+
+.copyright {
+    margin-top: 200px;
+    color: white;
+    font-size: 17px;
+    margin-left: 760px;
+    font: sans-serif;
+}

@@ -1,0 +1,64 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url("https://assets-a1.kompasiana.com/items/album/2020/11/19/umsida1912-20200509-1-5fb68eedd541df599c17d102.jpg");
+    background-size: 2000px;
+}
+
+.head {
+    font-size: 20px;
+    font-family: georgia;
+    text-align: center;
+}
+
+nav {
+    background-color: white;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    position: sticky;
+    padding: 0px 120px;
+    color: black;
+    position: sticky;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+.tombol {
+    margin-left: 250px;
+    height: 50px;
+}
+
+nav button:hover {
+    color:red;
+}
+
+.container a:hover {
+    color: red;
+}
+
+.content_1 {
+    background-color: white;
+    font-size: 30px;
+    margin-top: -450px;
+}
+
+.content_1 a:hover {
+    color: red;
+}
+
+img {
+    margin-left: 1400px;
+    width: 500px;
+
+}
+
+footer {
+    margin-top: 373px;
+    font-size: 20px;
+    background-color: white;
+}
