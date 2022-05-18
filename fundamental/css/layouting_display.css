@@ -1,0 +1,23 @@
+/* Display inlline */
+a {
+    background-color: red;
+    color: black;
+}
+
+/* Display block */
+h1,
+p {
+    background-color: aqua;
+}
+
+/* Display inlineblock */
+a.inlineblock {
+    background-color: blue;
+    display: inline-block;
+    width: 300px;
+}
+
+/* Display none */
+h2 {
+    display: none;
+}
