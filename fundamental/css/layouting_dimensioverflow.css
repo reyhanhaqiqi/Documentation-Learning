@@ -1,0 +1,42 @@
+.satu,
+.dua,
+.tiga,
+.empat,
+.lima {
+    margin-bottom: 10px;
+}
+
+/* Width & Height */
+.satu {
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+
+}
+
+.dua {
+    background-color: pink;
+    width: 70%;
+}
+
+/* Overflow */
+.tiga {
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+    overflow: auto;
+}
+
+.empat {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    overflow: scroll;
+}
+
+.lima {
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
