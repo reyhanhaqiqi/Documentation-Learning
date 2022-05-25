@@ -1,0 +1,45 @@
+body {
+    height: 2000px;
+}
+
+/* z-index */
+
+
+.satu {
+    width: 80px;
+    height: 80px;
+    background-color: saddlebrown;
+    position: absolute;
+    z-index: 1;
+}
+
+.dua {
+    width: 80px;
+    height: 80px;
+    background-color: salmon;
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    z-index: 3;
+}
+
+.tiga {
+    width: 80px;
+    height: 80px;
+    background-color: aqua;
+    position: absolute;
+    top: 120px;
+    left: 120px;
+    z-index: 2;
+}
+
+/* Fungsi lain position */
+.box {
+    background-color: blue;
+    position: fixed;
+    left: 100px;
+    right: 100px;
+    bottom: 200px;
+    top: 300px;
+    z-index: 4;
+}
