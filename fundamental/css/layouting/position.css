@@ -1,0 +1,71 @@
+div {
+    width: 80px;
+    height: 80px;
+}
+
+/* Position Static */
+.satu {
+    background-color: red;
+}
+
+.dua {
+    background-color: green;
+    position: static;
+}
+
+.tiga {
+    background-color: blue;
+}
+
+/* Position Relative */
+.empat {
+    margin-top: 100px;
+    background-color: aqua;
+}
+
+.lima {
+    background-color: lime;
+    position: relative;
+    left: 100px;
+    top: 30px;
+}
+
+.enam {
+    background-color: bisque;
+    position: relative;
+    right: 10px;
+}
+
+/* Position Absolute */
+.container {
+    margin-top: 100px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.tujuh {
+    background-color: lightcoral;
+}
+
+.delapan {
+    background-color: blueviolet;
+    position: absolute;
+    left: 100px;
+    top: 20px;
+}
+
+.sembilan {
+    background-color: brown;
+    position: absolute;
+}
+
+/* Position Fixed */
+.sepuluh {
+    width: 100%;
+    height: 20px;
+    background-color: cadetblue;
+    position: fixed;
+    top: 0;
+}
