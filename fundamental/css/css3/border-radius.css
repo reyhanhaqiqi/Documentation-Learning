@@ -1,0 +1,35 @@
+/* Border Radius Box */
+div.satu {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    line-height: 200px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+div.dua {
+    width: 200px;
+    height: 200px;
+    background-color: lime;
+    line-height: 200px;
+    text-align: center;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+/* Border Radius Image */
+div.tiga {
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    border-radius: 20% 0 20% 0;
+    overflow: hidden;
+}
+
+div.tiga img {
+    width: 300px;
+    position: relative;
+    left: -100px;
+}

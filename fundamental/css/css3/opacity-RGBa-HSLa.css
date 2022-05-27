@@ -1,0 +1,38 @@
+body {
+    background-color: #333;
+}
+
+.satu {
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    opacity: 0.5;
+    position: relative;
+}
+
+.dua {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    opacity: 0.5;
+    position: absolute;
+    right: -50px;
+    bottom: -50px;
+}
+
+.tiga {
+    margin-top: 100px;
+    width: 300px;
+    height: 300px;
+    background-color: rgba(0, 0, 230, 0.2);
+    position: relative;
+}
+
+.empat {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    position: absolute;
+    right: -50px;
+    bottom: -50px;
+}
