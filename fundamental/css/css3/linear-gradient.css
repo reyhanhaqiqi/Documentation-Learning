@@ -1,0 +1,22 @@
+/* Linear Gradient */
+.satu {
+    width: 400px;
+    height: 200px;
+    margin: 50px auto;
+    background: linear-gradient(45deg, #f00, #0f0);
+}
+
+.dua {
+    width: 400px;
+    height: 200px;
+    margin: auto;
+    background-image: linear-gradient(to left bottom, yellow, blue, purple, red);
+}
+
+/* Linear Gradient Stop Color */
+.tiga {
+    width: 400px;
+    height: 200px;
+    margin: 50px auto;
+    background-image: linear-gradient(to bottom, #f00 70%, #0f0, #00f);
+}

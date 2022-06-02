@@ -1,0 +1,35 @@
+/* Radial gradient */
+.satu {
+    width: 400px;
+    height: 200px;
+    margin: 50px auto;
+    background-image: radial-gradient(#f00, #00f);
+}
+
+.dua {
+    width: 400px;
+    height: 200px;
+    margin: 50px auto;
+    background-image: radial-gradient(circle farthest-side at bottom right, green 50%, yellow, red, blue);
+}
+
+.tiga {
+    width: 400px;
+    height: 200px;
+    margin: 50px auto;
+    background-image: radial-gradient(ellipse closest-side, green, yellow, red, blue);
+}
+
+.empat {
+    width: 400px;
+    height: 200px;
+    margin: 50px auto;
+    background: radial-gradient(circle farthest-side at bottom left, purple, pink, red, #ff3);
+}
+
+.lima {
+    width: 400px;
+    height: 200px;
+    margin: 50px auto;
+    background: radial-gradient(ellipse farthest-corner at center right, red, green, blue);
+}
